@@ -10,6 +10,11 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+a {
+  color: white;
+  text-decoration: none;
+}
+
 .grid {
   height: 100vh;
   display: grid;
