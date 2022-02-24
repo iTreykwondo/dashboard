@@ -13,7 +13,7 @@ body {
 a {
   color: white;
   text-decoration: none;
-  font-size: 24px;
+  font-size: 20px;
 }
 
 li {
@@ -34,7 +34,7 @@ li {
   display: grid;
   grid-template-rows: 200px 1fr 1fr;
   align-items: center;
-
+  padding-right: 45px;
   padding-left: 45px;
 }
 
@@ -42,6 +42,10 @@ li {
   display: flex;
   align-items: center;
   gap: 15px;
+}
+
+.logo h1 {
+  color: white;
 }
 
 .menu-1,
@@ -56,6 +60,11 @@ li {
   display: flex;
   align-items: center;
   gap: 24px;
+}
+
+.menu-1 li a,
+.menu-2 li a {
+  font-weight: bold;
 }
 
 .projects {
