@@ -9,3 +9,11 @@
 body {
   font-family: "Poppins", sans-serif;
 }
+
+.dashboard {
+  background-color: #6d28d9;
+}
+
+.projects {
+  background-color: #ede9fe;
+}
