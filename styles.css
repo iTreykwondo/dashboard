@@ -10,8 +10,17 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+.grid {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: 1fr 5fr;
+}
+
 .dashboard {
   background-color: #6d28d9;
+  grid-column: 1 / 2;
+  grid-row: 1 / -1;
 }
 
 .projects {
