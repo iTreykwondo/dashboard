@@ -23,7 +23,7 @@ a {
   grid-template-rows: 1fr 5fr;
 }
 
-.dashboard {
+.sidebar {
   background-color: #6d28d9;
   grid-column: 1 / 2;
   grid-row: 1 / -1;
