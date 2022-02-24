@@ -16,6 +16,10 @@ a {
   font-size: 20px;
 }
 
+li {
+  list-style: none;
+}
+
 .grid {
   height: 100vh;
   display: grid;
@@ -31,6 +35,13 @@ a {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+}
+
+.menu-1 li,
+.menu-2 li {
+  display: flex;
+  align-items: center;
+  gap: 30px;
 }
 
 .projects {
