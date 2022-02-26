@@ -73,10 +73,6 @@ li {
   grid-template-rows: repeat(2, 1fr);
 }
 
-.projects {
-  background-color: #ede9fe;
-}
-
 .search-section {
   display: flex;
   justify-content: space-between;
@@ -136,4 +132,8 @@ li {
   background-color: #6d28d9;
   padding: 12px 24px;
   border-radius: 40px;
+}
+
+.main-grid {
+  background-color: rgb(82, 82, 82, 0.1);
 }
