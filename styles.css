@@ -136,4 +136,7 @@ li {
 
 .main-grid {
   background-color: rgb(82, 82, 82, 0.1);
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: repeat(2, 1fr);
 }
