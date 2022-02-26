@@ -129,9 +129,11 @@ li {
 
 .btns ul {
   display: flex;
-  gap: 60px;
+  gap: 45px;
 }
 
 .btns li a {
-  color: black;
+  background-color: #6d28d9;
+  padding: 12px 24px;
+  border-radius: 40px;
 }
