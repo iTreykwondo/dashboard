@@ -76,3 +76,32 @@ li {
 .projects {
   background-color: #ede9fe;
 }
+
+.search-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 50px;
+  padding-top: 52px;
+}
+
+.search {
+  display: flex;
+  gap: 20px;
+  margin-left: 50px;
+  flex: 1;
+}
+
+.search input {
+  width: 70%;
+}
+
+.account-info {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.account-info .profile-img {
+  border-radius: 50%;
+}
