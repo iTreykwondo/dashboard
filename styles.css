@@ -53,6 +53,7 @@ li {
   display: flex;
   gap: 45px;
   flex-direction: column;
+  margin-left: 5px;
 }
 
 .menu-1 li,
