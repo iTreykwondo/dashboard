@@ -138,35 +138,64 @@ li {
   background-color: rgb(82, 82, 82, 0.1);
   display: grid;
   grid-template-columns: 3fr 1fr;
-  grid-template-rows: repeat(2, 1fr);
+  padding: 20px;
 }
 
-.projects {
-  grid-row: 1 / 3;
-}
-
-.project-cards {
+.project-card-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 15px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 20px;
 }
 
 .card {
-  margin-top: 30px;
-  border: 2px solid black;
-  padding: 10px;
-  margin-left: 20px;
-  height: 250px;
+  border-left: 10px solid #ef4444;
+  border-radius: 10px;
+  background-color: #fff;
+  height: 158px;
+  padding: 20px;
 }
 
-.card .subtext {
-  text-align: left;
-  width: 80%;
-}
-
-.card .card-icons {
+.card .icons {
   display: flex;
   justify-content: flex-end;
-  gap: 24px;
-  margin-top: 24px;
+  margin-top: 10px;
+}
+
+.announcements {
+  padding-left: 12px;
+}
+
+.announcement-card {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px 30px;
+  margin-bottom: 40px;
+}
+
+.announcement-card > div {
+  border-bottom: 1px solid lightgray;
+  margin-bottom: 20px;
+}
+
+.trending {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.profile img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
 }
